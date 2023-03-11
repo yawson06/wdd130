@@ -7,8 +7,8 @@
     --accent1-color:    #3C6997;
     --accent2-color:    #F1F2F6;
   
-    --heading-font: '______', Tilt Prism;
-    --paragraph-font: '______', Ubuntu;
+    --heading-font: 'Tilt Prism',Roboto;
+    --paragraph-font: 'Ubuntu',Sans-Serif ; 
   
     --nav-background-color: #5ADBFF;
     --nav-link-color: #096173;
@@ -17,9 +17,9 @@
   }
 
   body {
-    f______: var(--paragraph-font);
-    m______: ______;
-    p______: ______;
+    font: var(--Ubuntu);
+    max-width: 960px;
+    padding: 20px;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -57,13 +57,4 @@
   nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-  }
-
-
-
-  
-
-  body {
-    max-width: 960px;
-    padding: 20px;
   }
