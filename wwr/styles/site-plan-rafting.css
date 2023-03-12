@@ -7,8 +7,8 @@
     --accent1-color:    #3C6997;
     --accent2-color:    #F1F2F6;
   
-    --heading-font: 'Tilt Prism',Roboto;
-    --paragraph-font: 'Ubuntu',Sans-Serif ; 
+    --heading-font: 'Tilt Prism',Serif;
+    --paragraph-font: 'Ubuntu',Serif; 
   
     --nav-background-color: #5ADBFF;
     --nav-link-color: #096173;
@@ -17,7 +17,7 @@
   }
 
   body {
-    font: var(--Ubuntu);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
   }
