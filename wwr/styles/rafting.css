@@ -6,32 +6,68 @@
     --accent1-color:    #3C6997;
     --accent2-color:    #F1F2F6;
   }
-  
-/* Apply default font and remove margins/padding on body */
-body {
-    font-family: var(--paragraph-font);
+
+  * {
     margin: 0;
     padding: 0;
   }
-  
-  /* Style headings */
-  h1 {
-    font-size: 2.5rem;
-    color: #096173;
-    mov
+
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    /*font-family: Tilt Prism, Ubuntu;*/
   }
-  
+
   h2 {
-    font-size: 2rem;
-    color: #3C6997;
+      font-size: 2rem;
+      text-shadow: 3px 3px 5px #3C6997;
+      font-family: ubuntu;
   }
-  
-  /* Style paragraphs */
-  p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #3C6997;
+
+  h1 {  font-size: 2.5rem;
+    text-shadow: 3px 3px 5px #3C6997;
+    font-family: Tilt Prism;
+    text-decoration: dashed;
   }
+
+  p { font-family: ubuntu ;
+
+  }
+
+  .article {
+    position: top;
+    display: flex;
+    top: 350px;
+    right: 15px;
+    background: radial-gradient(#eee, #4567aa);
+    border: 1px solid #000;
+    padding: 0.65rem;
+    box-shadow: 0 0 30px #111;
+    opacity: 0.8;
+    width: 800px;
+    height: 100px;
+    text-align: left;
+  }
+
+  .article img { position: relative;
+                  float: right;
+  }
+
+  footer {
+    position: flex;
+    margin: 1rem;
+    padding: 0.5rem;
+    color: navy;
+    font-weight: 700;
+  }
+
+  .sociallinks {
+    display: inline-flex;
+    position: relative;
+    margin: 1rem;
+    padding: 0.5rem;
+    color: navy;
+   }
   
   /* Style navigation */
   .navigation a {
@@ -43,40 +79,4 @@ body {
 .sociallinks a {
   text-decoration:none; 
   color: #3C6997;
-}
-
-
-  .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  body {
-    background-image: ;
-    color: #FFFFFF;
-}
-
-
-/* Position the h1 heading absolutely 
-h1 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 1; /* make sure it appears above other elements */
-*/
-
-/* Position the article absolutely 
-article {
-  position: absolute;
-  top: 120px;
-  left: 20px;
-  width: 70%;
-  z-index: 1; /* make sure it appears above other elements 
-}*/
-
-/* Float the img inside the article to the right of the p paragraph */
-article img {
-  float: right;
-  margin: 0 0 10px 15px; /* add some margin for breathing room */
 }
