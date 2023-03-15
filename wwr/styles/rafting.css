@@ -1,5 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&family=Ubuntu&display=swap');
 
+:root {
+    --primary-color:    #44b2d1;
+    --secondary-color:  #096173;
+    --accent1-color:    #3C6997;
+    --accent2-color:    #F1F2F6;
+  }
+  
+/* Apply default font and remove margins/padding on body */
+body {
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style headings */
+  h1 {
+    font-size: 2.5rem;
+    color: #096173;
+    mov
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #3C6997;
+  }
+  
+  /* Style paragraphs */
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #3C6997;
+  }
+  
+  /* Style navigation */
+  .navigation a {
+    text-decoration:none; 
+    color: #3C6997;
+  }
+  
+/* Style social media links */
+.sociallinks a {
+  text-decoration:none; 
+  color: #3C6997;
+}
 
 
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
+  body {
+    background-image: ;
+    color: #FFFFFF;
+}
+
+
+/* Position the h1 heading absolutely 
+h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1; /* make sure it appears above other elements */
+*/
+
+/* Position the article absolutely 
+article {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  width: 70%;
+  z-index: 1; /* make sure it appears above other elements 
+}*/
+
+/* Float the img inside the article to the right of the p paragraph */
+article img {
+  float: right;
+  margin: 0 0 10px 15px; /* add some margin for breathing room */
+}
