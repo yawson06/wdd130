@@ -34,7 +34,7 @@
 
   }
 
-  .article {
+  .hero {
     display: flex;
     top: 350px;
     right: 15px;
@@ -48,7 +48,7 @@
     text-align: left;
   }
 
-  .article img { position: relative;
+  .hero img { position: relative;
                   float: right;
   }
 
