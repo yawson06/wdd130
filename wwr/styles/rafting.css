@@ -15,7 +15,7 @@
   main {
     max-width: 800px;
     margin: 2rem auto;
-    font-family: Tilt Prism, Ubuntu;
+    /*font-family: Tilt Prism, Ubuntu;*/
   }
 
   h2 {
@@ -48,9 +48,9 @@
     text-align: left;
   }
 
-  .hero img { position: relative;
+  /*.hero img { position: relative;
                   float: right;
-  }
+  }*/
 
   footer {
     margin: 1rem;
