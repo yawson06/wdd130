@@ -34,7 +34,8 @@
 
   }
 
-  .hero {
+  .article {
+    position: top;
     display: flex;
     top: 350px;
     right: 15px;
@@ -48,11 +49,12 @@
     text-align: left;
   }
 
-  /*.hero img { position: relative;
+  .article img { position: relative;
                   float: right;
-  }*/
+  }
 
   footer {
+    position: flex;
     margin: 1rem;
     padding: 0.5rem;
     color: navy;
