@@ -78,9 +78,9 @@ aside h2 {
     color: #01010ee5;
   }
 
-  .indent {
+ /* .indent {
     padding-left: 2rem;
-  }
+  } */
 
   header, footer {
     max-width: 840px;
