@@ -45,7 +45,7 @@
     top: 100px;
     background: radial-gradient(#eee, #4567aa);
     border: 1px solid #000;
-    padding: 0.65rem;
+    padding: 0.5rem;                           /* used to be 0.5rem*/
     box-shadow: 0 0 30px #111;
     opacity: 0.8;
   }
@@ -106,8 +106,8 @@ header img {
 }
 
 .sociallinks {
-  margin: 0.5rem;
-  padding: 0.5rem;
+  margin: 0.5rem; /*margin*/
+  padding: 0.5rem; /*padding*/
   color: navy;
  }
 
