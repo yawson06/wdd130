@@ -14,7 +14,7 @@
 
   main, header, footer {
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 0.5rem auto; /*used to be 2rem*/
   }
 
   h2 {
@@ -61,8 +61,6 @@
   }
 
    footer {
-    /*display: flex;
-    float: right; */
     padding: 0.5rem;
     color: navy;
     font-weight: 700;
@@ -78,20 +76,7 @@ footer p {
 align-items: center;
 
 }
-/*
-header img {
-  max-width: 120px;
-  max-height: 120px;
-  margin: 0 10rem 0 1rem;
-}
 
-.navigation {
-  display: flex;
-}
-
-.navigation a {
-  flex: 1 1 100%;
-} 
 
   /* Style navigation */
   .navigation a {
@@ -104,6 +89,14 @@ header img {
   text-decoration:none; 
   color: #3C6997;
 }
+
+
+/*display: flex;
+justify-content: space-around;
+align-items: center;*/
+
+
+
 
 .sociallinks {
   margin: 0.5rem; /*margin*/
