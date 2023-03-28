@@ -38,9 +38,13 @@ nav {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem;
+    margin: 1rem;
   }
 
+   .box li {
+        margin-left: 1rem;
+
+   }
 
   p {
     margin: 1rem;
@@ -84,7 +88,7 @@ aside h2 {
     padding-left: 2rem;
   } */
 
-  header, footer {
+  header, footer, .grid {
     max-width: 840px;
     margin: 0 auto;
   }
