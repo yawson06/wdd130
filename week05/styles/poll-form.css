@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+  }
+
+ body {
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+  }
+  
