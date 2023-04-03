@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-
-
-
-
-
-
-
-
+    <title>HTML and CSS Quiz</title>
+    <meta name="author" content="michael mensah">
+    <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
     
 <Main>
-    
-    <label for="q1">Do you like css?</label>
-    <input type="input" id="q1" name="q1">
-
-    <label for="q2">Define CSS?</label>
-    <textarea id="q2" name="q2"> type your answer here</textarea>
-
-    <label for="q3"> Select your favorite CSS declaration:</label>
-    
-    <option value="">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="fiat">Fiat</option>
-    <option value="audi">Audi</option>
-
-
-
-
+  <h1>Basic HTML and CSS Quiz:</h1>
+<form>
+  <p>1.</p>
+    <label for="q1">Do you enjoy learning CSS?:</label>
+    <input type="text" id="q1" name="q1">
+  
+    <p>2.</p>
+    <label for="q2">Define HTML and CSS?</label>
+    <textarea id="q2" name="q2"></textarea>
+  
+    <p>3.</p>
+    <label for="q3">Which of these is a valid CSS comment?</label>
+    <select id="q3" name="q3">
+      <option value="" selected disabled>Choose One ...</option>
+      <option value="option1">p { color: red;}</option>
+      <option value="option2">--Style for .hero--</option>
+      <option value="option3">**style**</option>
+    </select>
+  
+    <p>4.</p>
+    <label for="q4">On a scale of 1 - 10, how well do you like CSS? 1 being the least and 10 being the higest</label>
+    <input type="number" id="q4" name="q4">
+  
+    <br><br>
+    <input type="submit" value="Submit Quiz">
+  </form>
 
 </Main>
+<footer>
 
-
-
-
+</footer>
 </body>
 </html>
 
