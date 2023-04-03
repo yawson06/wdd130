@@ -22,6 +22,8 @@ body { border:1px;
     font-weight: bold;
     margin-top: 20px;
     left: 1px;
+    color:rgb(42, 117, 163);
+    
   }
   
   /* Style the form labels */
@@ -119,4 +121,3 @@ h1 {
   select:valid {
     border-color: #008000;
   }
-  
