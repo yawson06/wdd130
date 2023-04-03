@@ -81,6 +81,8 @@ body { border:1px;
 
   /* Style the page heading */
 h1 {
+    width: 50%;
+    margin: auto;
     text-align: center;
     margin-top: 50px;
     color:rgb(42, 117, 163);
